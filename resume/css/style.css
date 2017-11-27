@@ -1,0 +1,63 @@
+
+
+main {
+    
+background: rgba(252,165,240,1);
+background: -moz-linear-gradient(45deg, rgba(252,165,240,1) 0%, rgba(181,255,255,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(252,165,240,1)), color-stop(100%, rgba(181,255,255,1)));
+background: -webkit-linear-gradient(45deg, rgba(252,165,240,1) 0%, rgba(181,255,255,1) 100%);
+background: -o-linear-gradient(45deg, rgba(252,165,240,1) 0%, rgba(181,255,255,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(252,165,240,1) 0%, rgba(181,255,255,1) 100%);
+background: linear-gradient(45deg, rgba(252,165,240,1) 0%, rgba(181,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fca5f0', endColorstr='#b5ffff', GradientType=1 );
+height: 100vh;
+ 
+
+
+}
+.card-title, p {
+    color: #434343;
+}
+
+.card {
+     -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.37);
+-moz-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.37);
+box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.37);   
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    height: 100%;
+    
+    
+}
+
+
+.img-box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+}    
+
+.img-box img {
+    width: 170px;
+    margin-top: -10%;
+    margin-left:-9%;
+
+}
+
+
+a {
+    margin: 5px;
+}
+
+.form {
+    width: 320px;
+}
