@@ -56,8 +56,26 @@ box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.37);
 
 a {
     margin: 5px;
+    
 }
+
+
 
 .form {
     width: 320px;
+}
+
+.card-body span h1 {
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block
+}
+
+span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-body .btn-outline-primary:focus {
+    box-shadow: none;
 }
